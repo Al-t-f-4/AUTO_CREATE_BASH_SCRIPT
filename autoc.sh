@@ -111,7 +111,7 @@ $( for key in ${!SF[@]}; do
 		"
 done)
 		*)
-			info
+			usage
 			exit 1
 		;;
 
@@ -128,4 +128,3 @@ EOF
 
 chmod +x $FILE
 
-cat $FILE
